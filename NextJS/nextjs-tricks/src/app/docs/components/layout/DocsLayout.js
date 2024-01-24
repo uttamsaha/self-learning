@@ -7,7 +7,7 @@ const DocsLayout = ({children}) => {
   return (
     <>
     <Navbar/>
-    <div className='w-[1400px] mx-auto flex gap-[20px] bg-white text-blak'>
+    <div className='w-[1400px] mx-auto flex gap-[20px] bg-white text-black'>
         <LeftSidebar/>
         {children}
         <RightSidebar/>
